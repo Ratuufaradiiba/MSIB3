@@ -1,0 +1,103 @@
+p {
+  color: #626262;
+  text-align: center;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 12pt;
+}
+
+body {
+  background-image: url('img/bg.jpg');
+  background-attachment: fixed;
+  margin: 1cm 5cm; /* margin-top dan bottom = 0cm, margin-left dan right = 3cm*/
+}
+
+hr {
+  border-width: 1px;
+  border-color: #292929;
+  border-style: solid;
+}
+
+/* groupping */
+fieldset,
+legend {
+  border: #626262 dotted 3px;
+  margin: 3%;
+}
+
+legend {
+  margin: auto;
+  padding: 10px; /* all padding */
+  color: darkkhaki;
+  font-weight: bold;
+  font-size: 14pt;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+}
+
+table {
+  width: 100%;
+  margin: auto;
+}
+
+b {
+  color: #ac9065;
+  font-style: italic;
+}
+
+ol {
+  font-style: italic;
+}
+ul {
+  font-style: italic;
+}
+
+li {
+  color: #626262;
+}
+
+#atas,
+#bawah {
+  text-align: right;
+}
+
+i {
+  color: aliceblue;
+}
+
+h2 {
+  text-align: center;
+  color: darkkhaki;
+  letter-spacing: 3px;
+}
+
+input[type='text'] {
+  width: 50%;
+  padding: 4px 6px;
+  margin: 0px 12px 20px 0px;
+  box-sizing: border-box;
+  border: 2px solid darkkhaki;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  outline: none;
+  background-color: #292929;
+}
+
+input[type='text']:focus {
+  border: 3px solid #555;
+}
+
+textarea{
+    width: 50%;
+    padding: 4px 6px;
+    margin: 0px 12px 20px 0px;
+    box-sizing: border-box;
+    border: 2px solid darkkhaki;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+    background-color: #292929;
+}
+
+textarea:focus {
+    border: 3px solid #555;
+}
